@@ -1,6 +1,8 @@
 window.snake.more_menu = function(e) {
   e = e || 25;
-  
+
+// MAP SIZE CODE
+
   // micro
   let img = new Image;
   img.src = 'https://i.postimg.cc/FHxxLK4m/micro-1.png';
@@ -51,19 +53,11 @@ window.snake.more_menu = function(e) {
   document.querySelector('#size').appendChild(img);
 
 
+// CHARACTER SPEED CODE
+
   /*--SPEEDS--*/
 
-  // blursed
-  img = new Image;
-  img.src = 'https://cdn.discordapp.com/attachments/723093815786864661/894286619530653726/unknown.png';
-  img.width = 47;
-  img.height = 47;
-  img.class = 'DqMRee SsAred';
-  document.querySelector('#speed').appendChild(img);
-
- 
-
-  // lightning
+  // Lightning
   img = new Image;
   img.src = 'https://i.postimg.cc/9Q9KJsnk/bolt.png';
   img.width = 47;
@@ -71,31 +65,7 @@ window.snake.more_menu = function(e) {
   img.class = 'DqMRee SsAred';
   document.querySelector('#speed').appendChild(img);
 
-  // snail
-  img = new Image;
-  img.src = 'https://i.postimg.cc/vHkC7G39/snai.png';
-  img.width = 47;
-  img.height = 47;
-  img.class = 'DqMRee SsAred';
-  document.querySelector('#speed').appendChild(img);
-
-  // fast-slow 2: faster and slower
-  img = new Image;
-  img.src = 'https://i.postimg.cc/QxFkJtMD/bru.png';
-  img.width = 47;
-  img.height = 47;
-  img.class = 'DqMRee SsAred';
-  document.querySelector('#speed').appendChild(img);
-
-  // desert bus
-  img = new Image;
-  img.src = 'https://cdn.discordapp.com/attachments/723093815786864661/894619150717177886/unknown.png';
-  img.width = 47;
-  img.height = 47;
-  img.class = 'DqMRee SsAred';
-  document.querySelector('#speed').appendChild(img);
-
-  // bullet
+  // Bullet
   img = new Image;
   img.src = 'https://i.postimg.cc/xCqBt7dD/bullet.png';
   img.width = 47;
@@ -103,7 +73,7 @@ window.snake.more_menu = function(e) {
   img.class = 'DqMRee SsAred';
   document.querySelector('#speed').appendChild(img);
 
-  // hyperbullet
+  // Hyper Bullet
   img = new Image;
   img.src = 'https://i.postimg.cc/KYG6g4SY/hyperbullet.png';
   img.width = 47;
@@ -111,7 +81,7 @@ window.snake.more_menu = function(e) {
   img.class = 'DqMRee SsAred';
   document.querySelector('#speed').appendChild(img);
 
-  // ultrabullet
+  // Ultra Bullet
   img = new Image;
   img.src = 'https://i.postimg.cc/7Znv60Rc/no.png';
   img.width = 47;
@@ -119,7 +89,7 @@ window.snake.more_menu = function(e) {
   img.class = 'DqMRee SsAred';
   document.querySelector('#speed').appendChild(img);
 
-  // yeetbullet
+  // Yeet Bullet
   img = new Image;
   img.src = 'https://i.postimg.cc/NMCVrwR2/aaaaaaaaa.png';
   img.width = 47;
@@ -127,7 +97,7 @@ window.snake.more_menu = function(e) {
   img.class = 'DqMRee SsAred';
   document.querySelector('#speed').appendChild(img);
 
-  // eternity
+  // Eternity
   img = new Image;
   img.src = 'https://i.postimg.cc/mDHJv50v/eternal.png';
   img.width = 47;
@@ -135,7 +105,7 @@ window.snake.more_menu = function(e) {
   img.class = 'DqMRee SsAred';
   document.querySelector('#speed').appendChild(img);
 
-  // ultradeath
+  // Ultra
   img = new Image;
   img.src = 'https://cdn.discordapp.com/attachments/723093815786864661/894620725888040981/unknown.png';
   img.width = 47;
@@ -143,6 +113,8 @@ window.snake.more_menu = function(e) {
   img.class = 'DqMRee SsAred';
   document.querySelector('#speed').appendChild(img);
 
+
+// APPLE COUNT CODE
 
   /*--COUNTS--*/
 
@@ -187,6 +159,8 @@ window.snake.more_menu = function(e) {
   img.width = 47;
   img.height = 47;
   document.querySelector('#count').appendChild(img);
+
+// UNKNOWN CODE // STUDYING
 
   /* making do things */
   const scripts = document.getElementsByTagName('script');
