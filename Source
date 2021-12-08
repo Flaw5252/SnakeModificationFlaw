@@ -12,7 +12,7 @@ window.snake.more_menu = function(e) {
 
   // super big
   img = new Image;
-  img.src = 'https://i.postimg.cc/mg4wkHK8/superbig-1.png';
+  img.src = 'https://i.postimg.cc/vmJK1ZbH/Icon1trim.jpg';
   img.width = 47;
   img.height = 47;
   document.querySelector('#size').appendChild(img);
