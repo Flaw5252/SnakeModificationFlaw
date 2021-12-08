@@ -5,42 +5,42 @@ window.snake.more_menu = function(e) {
 
   // micro
   let img = new Image;
-  img.src = 'https://i.postimg.cc/FHxxLK4m/micro-1.png';
+  img.src = 'https://i.postimg.cc/G2ZyY9pt/Icon6trim.jpg';
   img.width = 47;
   img.height = 47;
   document.querySelector('#size').appendChild(img);
 
   // super big
   img = new Image;
-  img.src = 'https://i.postimg.cc/vmJK1ZbH/Icon1trim.jpg';
+  img.src = 'https://i.postimg.cc/gcQxx96t/Icon1trim.jpg';
   img.width = 47;
   img.height = 47;
   document.querySelector('#size').appendChild(img);
 
   // ultra big
   img = new Image;
-  img.src = 'https://i.postimg.cc/1RLMxTBx/ultrabig-1.png';
+  img.src = 'https://i.postimg.cc/1zv0g96V/Icon5trim.jpg';
   img.width = 47;
   img.height = 47;
   document.querySelector('#size').appendChild(img);
 
   // humongous
   img = new Image;
-  img.src = 'https://i.postimg.cc/vmHtLdYn/humoungus-1.png';
+  img.src = 'https://i.postimg.cc/R0SQV33z/Icon4trim.jpg';
   img.width = 47;
   img.height = 47;
   document.querySelector('#size').appendChild(img);
 
   // too big
   img = new Image;
-  img.src = 'https://i.postimg.cc/8CKBZnc0/toobigg-1.png';
+  img.src = 'https://i.postimg.cc/2jMwF8t4/Icon3trim.jpg';
   img.width = 47;
   img.height = 47;
   document.querySelector('#size').appendChild(img);
 
   // too big
   img = new Image;
-  img.src = 'https://i.postimg.cc/Fsdz2CRL/purgatory.png';
+  img.src = 'https://i.postimg.cc/QMftsv3b/Icon2trim.jpg';
   img.width = 47;
   img.height = 47;
   document.querySelector('#size').appendChild(img);
