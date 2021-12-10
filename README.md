@@ -4,4 +4,6 @@ Modified Modification for Google's snake. Found here: https://www.google.com/sea
 
 Currently we have taken down the launcher/executor so currently you cannot download and run this program. Should be back up by 12-12-2021 at 12:00am EST
 
-Last Update: 12-10-2021 at 9:05am EST
+Last Update: 12-10-2021 at 9:05am EST by Flaw5252
+
+Looking for a project? We are looking for contributors who can help with icons, programming, etc. Make a discussion and we will reach out to you!
